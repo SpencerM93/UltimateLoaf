@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #f9fafa,#b4eff3);
+    text-align: center;
+
+}
+.fas fa-bars{
+    float: left;
+    font-size: 20px;
+}
+.hamburger {
+    width: 5%;
+    height: 50px;
+    color: black;
+    display: inline-block;
+    margin-top: 34px;
+    font-size: 20px;
+}
+.banner{
+    width: 95%;
+    height: 50px;
+    float: right;
+    padding-top: 25px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: rgb(87, 84, 84);
+    width: 100%;
+    height: 40px;
+    font-size: 0;
+  }
+  /* home button */
+
+  .homebtn {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* drop down menu buttons */
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .homebtn, .dropdown{
+      width: 20%;
+      height: 100%;
+  }
+  
+.dropbtn {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  .homebtn:hover, .dropdown:hover, .dropbtn:hover {
+    background-color: rgb(131, 125, 125);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
